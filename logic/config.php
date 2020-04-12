@@ -3,8 +3,8 @@
     class MySQLDB {
         private $host = "localhost";
         private $db_name = "mydb";
-        private $username = "root";
-        private $password = "";
+        private $username = "localuser";
+        private $password = "pw123";
         public $conn;
 
         public function getConnection(){
